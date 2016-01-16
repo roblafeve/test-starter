@@ -1,9 +1,5 @@
-module.exports = function add() {
-  var num = 0;
+import dep from 'dep'
 
-  console.log(typeof(arguments));
-  for (var i = 0; i < arguments.length; i++) {
-    num += arguments[i];
-  }
-  return num;
+export default function add(a, b) {
+  return dep(a) + b
 }
