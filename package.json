@@ -4,7 +4,7 @@
   "description": "cool",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_PATH=./src babel-node --presets es2015 -- ./node_modules/.bin/_mocha --watch --require ./test/globals.js",
+    "test": "NODE_PATH=./src babel-node --presets es2015 -- ./node_modules/.bin/_mocha --watch --require ./test/globals.js --reporter spec",
     "cover": "NODE_PATH=./src babel-node ./node_modules/.bin/isparta cover ./node_modules/.bin/_mocha --require ./test/globals.js -- --reporter dot"
   },
   "author": "Rob LaFeve",

@@ -10,4 +10,8 @@ describe('add()', function() {
     expect(add(1, 1)).to.equal(2)
   })
 
+  it('does other stuff', () => {
+    expect(add(2, 3)).to.equal(5)
+  })
+
 })
