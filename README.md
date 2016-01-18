@@ -1,6 +1,6 @@
 # Test Starter
 
-A simple starter project to get you up and testing
+A simple starter project to get you up and testing JavaScript
 
 ## Tools Used
 
