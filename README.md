@@ -18,4 +18,4 @@ A simple starter project to get you up and testing JavaScript
 ## Notes
 - Tests live in `tests`
 - Notice that native module import/export is being used.
-- Normally you would need to reference module imports with a relative or absolute path. For convenience, `./src` has been set as the `NODE_PATH`, imports will attempt to resolve their first.
+- Normally you would need to reference module imports with a relative or absolute path. For convenience, `./src` has been set as the `NODE_PATH`, imports will attempt to resolve there first.
